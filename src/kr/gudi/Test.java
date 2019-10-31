@@ -1,13 +1,23 @@
 package kr.gudi;
 
 public class Test {
+	
+	int a;
+	int b;
+	
+	public Test() {}
 
 	public static void main(String[] args) {
-		int a = 5;
-		int b = 3;
-		Calc calc = new Calc();
-		calc.덧셈(a,b);
-		calc.뺄셈(a,b);
+		Test test1 = new Test();
+		System.out.println(test1.a); // 값을 담기 전 기본값
+		test1.a = 5;
+		System.out.println(test1.a); // 5의 값 확인
+		
+		Test test2 = new Test();
+		System.out.println(test2.a); // 5의 값 확인
+		
+//		System.out.println(test1);
+//		System.out.println(test2);
 	}
 	
 }
