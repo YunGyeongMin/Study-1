@@ -6,5 +6,4 @@ public class 클래스A {
 		new 클래스B(); // 클래스B 생성 부분
 	}
 	
-	
 }
